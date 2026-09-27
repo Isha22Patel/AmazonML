@@ -1,0 +1,9 @@
+Blocking Strategy,Candidate Recall (%),Mean Cands,Median Cands,P95 Cands,P99 Cands,Max Cands,Zero-Candidate Rate (%),Reduction Ratio (%),Runtime (s)
+1. Exact Name + Country,11.79,3.81,1,34,40,40,43.82,99.999924%,0.11
+2. Suffix-Stripped Name + Country,21.86,8.15,2,40,40,40,20.83,99.999838%,0.18
+3. Sorted Name Tokens + Country,23.26,8.08,2,35,35,35,18.02,99.999839%,0.18
+4. Compact Name + Country,21.94,7.73,2,35,35,35,20.48,99.999846%,0.17
+5. Name Token + Address Number,22.0,4.76,1,30,30,30,30.15,99.999905%,0.19
+6. Address Number + Street Word,24.68,6.14,2,30,30,30,26.77,99.999878%,0.23
+7. Controlled Prefix-6 + Country,10.93,17.21,20,20,20,20,1.93,99.999658%,0.26
+★ Production Multi-Pass (7 Passes + Relevance Ranking),37.47,28.77,24,60,60,60,0.34,99.999429%,1.17

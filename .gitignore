@@ -1,0 +1,29 @@
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python Bytecode & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Raw Dataset Directory (supplied by organizers)
+dataset/
+AmazonML_Final
+
+# Model weights & binaries
+models/*.joblib
+
+# Archives & Intermediate Artifacts
+*.zip
+*.tar.gz
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+scratch/
+scratch_*
